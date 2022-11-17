@@ -7,6 +7,17 @@
     <title><?php the_title(); ?></title>
     <link rel="icon" type="image/x-icon" href="Assets/logos/kings-icon.svg">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58589832-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58589832-1');
+    </script>
+
+
 
    
    
