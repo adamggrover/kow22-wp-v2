@@ -36,6 +36,11 @@
 
                     <div class="content-body">
 
+                    
+
+<p>If you have any questions or would like to arrange a tour, please contact our Head of Sixth Form, Miss Rachael Wright who will be happy to assist you.</p>
+<p>Contact the Academy on 01934 742608 or email <a href="office@kowessex.co.uk">office@kowessex.co.uk</a></p>
+<h2 class="mt-5 mb-4"><strong>Application Form</strong></h2>
                         <div class="form-container">
 
                             <form method="post" autocomplete="on" action="../wp-content/themes/kow22/form.php">
@@ -105,7 +110,9 @@
                                     <input type="text" id="tutor-group" name="tutor-group">
 
                                 </div>
-
+                                    <h5 class="mb-2 mt-4"><strong>Subject Choices</strong></h5>
+                                    <p class="mb-1">Please select in order of preference</p>
+                                    <p>*BTEC Diploma and Cambridge Technical Level 3 qualifications are the equivalent to two A levels and will therefore take two options</p>
                                     <label for="subjects1" class="form-question">Subject choice 1</label>
 
                                     <select name="subjects1" id="subjects1" required>
@@ -262,13 +269,13 @@
                                                 <option value="Work Skills - Level 2 BTEC (Diploma or Extended Certificate) (worth 4)" >Work Skills - Level 2 BTEC (Diploma or Extended Certificate) (worth 4)</option>
                                         </select>
 
-                                        <label for="comments">Please add any further information about your choices</label>
+                                        <label for="comments" class="mt-4">Please add any further information about your choices</label>
 
                                         <textarea rows="4" cols="50" name="comments"></textarea>
 
 
 
-                                        <label for="epq" class="form-question">Would you be interested in studying an EPQ alongside your choices?</label>
+                                        <label for="epq" class="form-question mt-4">Would you be interested in studying an EPQ alongside your choices?</label>
                                         
                                         <div class="epq-yes">
                                             <input type="radio" id="html" name="epq" value="Yes" required>
