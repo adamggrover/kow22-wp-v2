@@ -1,0 +1,67 @@
+@use 'colors' as c;
+
+$font-family-base: 'Ubuntu', sans-serif;
+
+p{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+.section-title{
+    color: c.$purple;
+    font-weight: bold;
+}
+
+.section-link{
+    font-size: 0.8rem;
+    color: c.$dark;
+    &:hover{
+        color: c.$green;
+    }
+}
+
+//News Section
+
+.news-tags{
+    color: c.$dark-purple;
+}
+
+.news-title{
+    color: c.$dark;
+}
+
+.news-date{
+    color: c.$muted;
+}
+
+//Calendar Section
+
+.calendar-date{
+    color: c.$dark-purple;
+}
+
+.calendar-month{
+    color: c.$dark;
+
+}
+
+.calendar-event{
+    color: c.$dark-purple;
+}
+
+.calendar-time{
+    color: c.$muted;
+}
+
+//Content page
+.content-column{
+
+
+    h1, h2, h3, h4, h5, h6
+    .h1, .h2, .h3, .h4, .h5, .h6{
+        color: c.$purple;
+        
+    }
+
+}

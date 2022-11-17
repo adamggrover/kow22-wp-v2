@@ -1,0 +1,37 @@
+@use 'globals' as g;
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 0 1 auto; 
+    width: 100%;   
+    max-width: inherit; 
+    
+}
+
+.header2 {
+    width: 100%;
+    max-width: inherit; 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: 0.1s;   
+    background-color: g.$dark;
+    
+    
+}
+
+
+
+
+.logo2{
+    
+    max-width: 5rem;
+    content: url(Assets/logos/kings-icon.svg);
+    padding-bottom: 0.1rem;
+    margin-top: 0.4rem;
+    
+
+    
+  }

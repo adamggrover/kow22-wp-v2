@@ -1,0 +1,20 @@
+/* WELCOME SECTION */
+
+
+@use 'globals' as g;
+
+#welcome{
+    background-color: g.$dark;
+    color: white;
+    padding-top: 2rem;
+
+    a{
+        color: g.$green;
+        &:hover{
+            color: g.$purple;
+        }
+    }
+    
+}
+
+

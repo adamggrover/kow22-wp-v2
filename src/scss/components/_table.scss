@@ -1,0 +1,37 @@
+@use 'globals' as g;
+
+
+
+table{
+    border: none;
+    width: 100%;
+}
+
+.wp-block-table td{
+    border: none;
+}
+  
+td {
+   
+    padding: 0.7rem;
+    &:not(:first-child){
+        border-left: g.$light 2px solid;
+
+    }
+  }
+  
+ tr:nth-child(odd){background-color: #e5ebc3;}
+ tr:nth-child(even){background-color: g.$light-light;}
+  
+
+
+th {
+    
+    text-align: left;
+    background-color: g.$green;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-bottom: g.$light 2px solid;
+  }
+
