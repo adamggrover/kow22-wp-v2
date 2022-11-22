@@ -6,44 +6,37 @@
 
 .is-style-kings-file-block, 
 .editor-styles-wrapper .is-kings-file-block { 
-	background-color: g.$green-light;
-	padding: 1rem;
-	margin-bottom: 4px;
+	a{
+		background-color: g.$primary!important;
+		padding: 0.6rem 1.2rem 0.6rem 1.2rem!important;
+		font-weight: 500!important;
+		font-size: 1rem;
+		color: white!important;
+		border-radius: 0.4rem!important;
+		min-width: 3rem;
+		border: g.$primary solid 1px!important;
+		margin-top: 1.3rem;
+		margin-bottom: 1.3rem;
 
-	a:visited{
-		color: g.$dark;
+		&:hover{
+			background-color: white!important;
+			border: g.$primary solid 1px!important;
+			color: g.$primary!important;
+
+		}
 	}
-
-
-
-	&:hover{
-		background-color: g.$green;
-
-		a:hover{
-			color: white;
-		}
-
-		a::before{
-			color: white;
-		}
-
-		
-
-		&>*{
-			color: white;
-		}
-
-		
-		
-
-	}
-
+}
 	
 
+// custom external file link block
 
-
+.is-style-kings-custom-external-file-link, 
+.editor-styles-wrapper .is-kings-custom-external-file-link { 
 
 	a{
+		background-color: g.$green-light;
+		padding: 1rem;
+		margin-bottom: 4px;
 		color: g.$dark;
 		font-weight: 500;
 		text-decoration: none;
@@ -51,24 +44,29 @@
 		align-items: center;
 
 
+	&:hover{
+		background-color: g.$green;
+		color: white;
 		
+		&::before{
+			color: white;
+		}
 
-
+	
 	}
-	a::before {
+
+	&::before {
 		font: var(--fa-font-solid);
 		content: "\f15b";
 		font-size: 1rem;
 		color: g.$muted;
-		padding-right: 1rem;
-
-
-		
+		padding-right: 1rem;	
 		
 
 	
 	}
-	
+	}
+
 }
 
 // Quote Block
@@ -182,69 +180,43 @@
 
 // custom external file link block
 
-.is-style-kings-custom-external-file-block, 
-.editor-styles-wrapper .is-kings-custom-external-file-block { 
-
-
-
-	
-	
-
-	a:visited{
-		color: g.$dark;
-	}
-
-
-
-	&:hover{
-		background-color: g.$green;
-		a{
-			color: white;
-		}
-
-
-
-		
-		
-
-	}
-
-	
-
-
-
+.is-style-kings-custom-external-file-link, 
+.editor-styles-wrapper .is-kings-custom-external-file-link { 
 
 	a{
+		background-color: g.$green-light;
+		padding: 1rem;
+		margin-bottom: 4px;
 		color: g.$dark;
 		font-weight: 500;
 		text-decoration: none;
 		display: flex;
 		align-items: center;
-		background-color: g.$green-light;
-		padding: 1rem;
-		margin-bottom: 4px;
-		width: 100%;
-		height: 100%;
 
 
+	&:hover{
+		background-color: g.$green;
+		color: white;
 		
+		&::before{
+			color: white;
+		}
 
-
+	
 	}
-	a::before {
+
+	&::before {
 		font: var(--fa-font-solid);
 		content: "\f15b";
 		font-size: 1rem;
 		color: g.$muted;
-		padding-right: 1rem;
-
-
-		
+		padding-right: 1rem;	
 		
 
 	
 	}
-	
+	}
+
 }
 
 .aioseo-html-page-sitemap a{
