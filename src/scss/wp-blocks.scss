@@ -131,6 +131,7 @@
 
 .is-style-kings-custom-button, 
 .editor-styles-wrapper .is-kings-custom-button { 
+	
 
 	a{
 		background-color: g.$primary!important;
@@ -159,15 +160,16 @@
 .is-style-kings-custom-external-file-link, 
 .editor-styles-wrapper .is-kings-custom-external-file-link { 
 
-	a{
+	 a{
 		background-color: g.$green-light;
 		padding: 1rem;
 		margin-bottom: 4px;
-		color: g.$dark;
-		font-weight: 500;
+		color: g.$muted;
+		font-weight: 600;
 		text-decoration: none;
 		display: flex;
 		align-items: center;
+		font-size: 0.8rem;
 
 
 		&:hover{
