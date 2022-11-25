@@ -7,12 +7,12 @@ jQuery(function(){
   slidesToScroll: 1,
   autoplay: true,
   fade: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 4000,
   speed: 2000,
   cssEase: 'ease-in-out',
   dots: false,
   touchMove: false,
-  arrows:true
+  arrows:false
   });
   
   
