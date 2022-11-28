@@ -269,9 +269,19 @@
 
 #sidebar-nav{
 
+  a.bellows-target{
+    min-width: fit-content;
+  }
+
   .primary-menu-container{
     color: g.$purple;
     width: 100%;
+    word-wrap: break-word;
+    margin: 7rem 0 0 0; 
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    
   }
   
   a.closebtn{
@@ -334,14 +344,6 @@
 
 
 
-.primary-menu-container{
-  margin: 7rem 0 0 0; 
-  width: 100%;
-  position: absolute;
-  background-color: transparent;
-  white-space: nowrap;
-  
-}
 
 
 

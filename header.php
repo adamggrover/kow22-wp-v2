@@ -40,7 +40,7 @@
    
 
     <div id="sidebar-nav" class="sidenav">
-      <div class=sidebar-container>
+      <div class="sidebar-container"  >
         <div class="closebtn-box">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i> </a>
         </div>
