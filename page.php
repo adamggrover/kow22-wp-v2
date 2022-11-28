@@ -12,7 +12,7 @@
  ?>
 
 <div class="container" data-aos="fade-up" data-aos-delay="200" data-aos-duration='800' id="main-page-area">
-            <div class="content-header row gx-5">
+            <div class="content-header row gx-3">
                 <div class="content-header-breadcrumb-wrapper col-lg-5 col-md-12">
                     <i class="fa-solid fa-house fa-xl"></i><span class="breadcrumb-spacer"></span>
                     <h6 class="mb-0 content-header-breadcrumb-links p-0"><small><?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?></small></h6>
@@ -31,7 +31,7 @@
                     
                 </div>
             </div>
-            <div class="content-area row gx-5">
+            <div class="content-area row gx-3">
                 <div class="col-lg-9 content-column">
                     
                     <h1 id="content-h1"><?php the_title(); ?></h1>
@@ -52,7 +52,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3" id="sidebar-section-nav-col" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800' >
+                <div class="col-lg-3" id="sidebar-section-nav-col" data-aos="fade-up" data-aos-delay="600" data-aos-duration='800' >
                     <div id="sidebar-container-nav">
                         <div id="SideNav">
 

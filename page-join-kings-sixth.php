@@ -316,7 +316,7 @@
 
 
 
-                <div class="col-lg-3" id="sidebar-section-nav-col" data-aos="fade-left" data-aos-delay="600" data-aos-duration='800'>
+                <div class="col-lg-3" id="sidebar-section-nav-col" data-aos="fade-up" data-aos-delay="600" data-aos-duration='800'>
                     <div id="sidebar-container-nav">
                         <div id="SideNav">
 
