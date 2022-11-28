@@ -1,7 +1,7 @@
 
      <header id="header" class="header2 row p-2 m-0 g-0">
-        <div class="container" id="header-search-container">
-            <div class="container d-flex align-items-center search-input-box justify-content-between">
+        <div id="header-search-container">
+            <div class="container d-flex align-items-center search-input-box">
                 <div class="search-left">
                     
 

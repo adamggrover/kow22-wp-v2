@@ -2,7 +2,7 @@
 
      <header id="header" class="header1 row p-0 pt-1 m-0 ">
         <div  id="header-search-container">
-            <div class="container d-flex align-items-center search-input-box justify-content-between">
+            <div class="container d-flex align-items-center search-input-box">
                 <div class="search-left">
                 <?php get_search_form(); ?>
 
