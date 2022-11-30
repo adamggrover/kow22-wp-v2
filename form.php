@@ -76,8 +76,8 @@ $mail = new PHPMailer();                              // Passing `true` enables 
 #	    $mail->Port       = 465;                                    // TCP port to connect to
 	    
 	    //Recipients
-	    $mail->setFrom('no-reply@kowessex.co.uk', 'New Sixth Form application');
-	    $mail->addAddress('agrover@wessexlearningtrust.co.uk', 'Application');     // Add a recipient
+	    $mail->setFrom('no-reply@kowessex.co.uk', 'New Sixth Form Application');
+	    $mail->addAddress('office@kowessex.co.uk', 'Application');     // Add a recipient
 #	    $mail->addAddress('ellen@kowessex.co.uk');               // Name is optional
 #	    $mail->addReplyTo('info@kowessex.co.uk', 'Information');
 #	    $mail->addCC('cc@kowessex.co.uk');
@@ -93,7 +93,7 @@ $mail = new PHPMailer();                              // Passing `true` enables 
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'This is a test of my application form';
+    $mail->Subject = 'New Sixth Form Application';
     $mail->Body = $message;
 
         //send the message, check for errors
