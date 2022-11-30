@@ -8,7 +8,7 @@ jQuery(function(){
   autoplay: true,
   fade: true,
   autoplaySpeed: 4000,
-  speed: 2000,
+  speed: 2500,
   cssEase: 'ease-in-out',
   dots: false,
   touchMove: false,
@@ -307,3 +307,4 @@ const documentHeight = () => {
  }
  window.addEventListener('resize', documentHeight)
  documentHeight()
+
