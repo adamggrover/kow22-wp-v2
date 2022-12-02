@@ -201,23 +201,23 @@ function custom_post_type() {
             'add_new'             => __( 'Add New' ),
             'edit_item'           => __( 'Edit Announcement' ),
             'update_item'         => __( 'Update Announcement' ),
-            'search_items'        => __( 'Announcements' ),
+            'search_items'        => __( 'Search Announcements' ),
             'not_found'           => __( 'Not Found' ),
             'not_found_in_trash'  => __( 'Not found in Trash' ),
         );
           
         $labels3 = array(
-            'name'                => _x( 'Job Adverts', 'Post Type General Name' ),
-            'singular_name'       => _x( 'Job Advert', 'Post Type Singular Name' ),
-            'menu_name'           => __( 'Job Adverts' ),
-            'parent_item_colon'   => __( 'Job Advert' ),
-            'all_items'           => __( 'Job Adverts' ),
-            'view_item'           => __( 'Job Advert' ),
-            'add_new_item'        => __( 'Add New Job Advert' ),
+            'name'                => _x( 'Vacancies', 'Post Type General Name' ),
+            'singular_name'       => _x( 'Vacancy', 'Post Type Singular Name' ),
+            'menu_name'           => __( 'Vacancies' ),
+            'parent_item_colon'   => __( 'Vacancy' ),
+            'all_items'           => __( 'Vacancies' ),
+            'view_item'           => __( 'Vacancy' ),
+            'add_new_item'        => __( 'Add New Vacancy' ),
             'add_new'             => __( 'Add New' ),
-            'edit_item'           => __( 'Edit Job Advert' ),
-            'update_item'         => __( 'Update Job Advert' ),
-            'search_items'        => __( 'Job Advert' ),
+            'edit_item'           => __( 'Edit Vacancy' ),
+            'update_item'         => __( 'Update Vacancy' ),
+            'search_items'        => __( 'Search Vacancies' ),
             'not_found'           => __( 'Not Found' ),
             'not_found_in_trash'  => __( 'Not found in Trash' ),
         );
@@ -282,8 +282,8 @@ function custom_post_type() {
         );
 
         $args3 = array(
-            'label'               => __( 'job adverts' ),
-            'description'         => __( 'Job Adverts' ),
+            'label'               => __( 'vacancies' ),
+            'description'         => __( 'Vacancies' ),
             'labels'              => $labels3,
             // Features this CPT supports in Post Editor
             'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
@@ -313,7 +313,7 @@ function custom_post_type() {
         // Registering your Custom Post Type
         register_post_type( 'match reports', $args1 );
         register_post_type( 'announcements', $args2 );
-        register_post_type( 'job adverts', $args3 );
+        register_post_type( 'vacancies', $args3 );
       
     }
       

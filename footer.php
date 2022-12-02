@@ -11,7 +11,7 @@
             <div class="row footer-text">
                 <div class="col-md-4 footer-contact footer-column">
                     <p class="mb-3">The Kings of Wessex Academy<br>Station Road, Cheddar<br>Somerset BS27 3AQ</p>
-                    <p class="mb-4">Headteacher: Dave Wiltshire</p>
+                    <p class="mb-4">Headteacher: Mr David Wiltshire</p>
                     <p><i class="fa-solid fa-phone"></i><span class="footer-spacer"></span>01934 742 608</p>
                     <p><a href="mailto:office@kowessex.co.uk"><i class="fa-solid fa-envelope"></i></i><span class="footer-spacer"></span>Email Us</a></p>
                     <p class="mb-4"><a href="https://www.google.com/maps/dir//The+Kings+of+Wessex+Academy+Station+Rd+Cheddar+BS27+3AQ/@51.2744878,-2.7786577,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48721dd466cc4fd1:0x35a655c7fba40d1!2m2!1d-2.7786577!2d51.2744878" target="_blank" ><i class="fa-solid fa-location-dot"></i></i><span class="footer-spacer"></span>Get Directions</a></p>
@@ -39,6 +39,10 @@
                     <a href="https://wessexlearningtrust.co.uk" target="_blank"><img class="wlt-white mb-3 mt-3 img-fluid" src="" alt=""></a>               
                 </div>
 
+        </div>
+        <div class="footer-bottom text-center">
+            <hr class="mt-3">
+            <p class="mb-0 mt-4">&#169 2022 Wessex Learning Trust</p>
         </div>
     </footer>
     

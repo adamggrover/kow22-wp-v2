@@ -78,7 +78,7 @@
       
       
                   <a href="<?php
-                            $page_object = get_page_by_path( '/safegaurding' );
+                            $page_object = get_page_by_path( '/safeguarding-at-kings' );
                             $page_id = $page_object->ID;
                             $permalink = get_permalink( $page_id );
                             echo $permalink;

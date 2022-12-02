@@ -38,8 +38,12 @@
 
                     
 
-<p>If you have any questions or would like to arrange a tour, please contact our Head of Sixth Form, Miss Rachael Wright who will be happy to assist you.</p>
-<p>Contact the Academy on 01934 742608 or email <a href="office@kowessex.co.uk">office@kowessex.co.uk</a></p>
+<p>Sometimes a student may find it difficult to talk to an adult when it comes to personal situations. If you want to report a concern about yourself or anyone around you, you can use the form below.</p>
+<p>A concern may be connected with bullying, emotional, sexual or physical abuse, ‘sexting’, etc, please don’t ‘wait to see what happens’ </p>
+
+
+<p>Fill out all the bits you can - don’t worry if it doesn’t all apply, the important thing is that you Tell Someone!</p>
+<p>You can also email us at <a href="tellsomeone@kowessex.co.uk">tellsomeone@kowessex.co.uk</a></p>
 
                         <div class="form-container">
 
@@ -88,6 +92,16 @@
                         </div>
 
 
+
+                        <?php
+                        if (have_posts()):
+                        while (have_posts()) : the_post();
+                            the_content();
+                        endwhile;
+                        else:
+                        echo '<p>Sorry, no posts matched your criteria.</p>';
+                        endif;
+                        ?>
 
 
 

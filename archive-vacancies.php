@@ -27,15 +27,14 @@
     <div class="content-area">
         <div id="job-adverts-content-column">
                     
-                <h1 id="content-h1">Job Adverts</h1>
+                <h1 id="content-h1">Vacancies</h1>
 
 
 
 
                 <div class="content-body">
 
-                    
-
+                                      
                      
 
 
@@ -43,7 +42,7 @@
                         if (have_posts()):
                         while (have_posts()) : the_post();
 
-                            get_template_part('archive', 'jobadverts-layout');
+                            get_template_part('archive', 'vacancies-layout');
                             
 
                             
@@ -54,12 +53,18 @@
                         ?>
 
 
+                            <div class="page-content-vacancies content-column">
 
-                     
+                            <?php $the_query = new WP_Query( 'page_id=1572' ); ?>
 
-                        
+                            <?php while ($the_query -> have_posts()) : $the_query -> the_post();  ?>
+
+                                                <?php the_content(); ?>
 
 
+                                <?php endwhile;?>
+
+                            </div>
                 </div>
 
 
