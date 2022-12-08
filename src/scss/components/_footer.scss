@@ -5,7 +5,8 @@
 footer{
     background-color: g.$dark;
     padding: 1.3rem 2rem 2rem 2rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
+    color: white;
 
     p{
         font-size: 0.9rem;
@@ -54,10 +55,10 @@ footer a:hover{
 .wlt-white{
 
     width: 100%;
-    max-width: 20rem;
+    max-width: 14rem;
     height: auto;
-    margin-left: -1.3rem;
-    content: url(Assets/logos/wlt-white.png);
+    
+    content: url(Assets/logos/wlt-logo-strapline.svg);
 
     
 }

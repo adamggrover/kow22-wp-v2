@@ -19,6 +19,8 @@
     "sass": "^1.54.9"
   },
   "dependencies": {
+    "global": "^4.4.0",
+    "gulp-cli": "^2.3.0",
     "gulp-purgecss": "^5.0.0",
     "purgecss": "^5.0.0"
   }

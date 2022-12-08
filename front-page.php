@@ -78,7 +78,7 @@
       
       
                   <a href="<?php
-                            $page_object = get_page_by_path( '/safegaurding' );
+                            $page_object = get_page_by_path( '/safeguarding-at-kings' );
                             $page_id = $page_object->ID;
                             $permalink = get_permalink( $page_id );
                             echo $permalink;
@@ -128,7 +128,7 @@
                     -webkit-transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
-                    text-align: center;">Safegaurding</div>
+                    text-align: center;">Safeguarding</div>
                   </div>
                 </div>
               </a>
@@ -363,10 +363,10 @@
                         ?>" class="mb-3 section-link">VIEW ALL NEWS</a>
             </div> 
 
-            <div class="container mb-5 ps-5 pe-5">
+            <div class="container mb-0 ps-5 pe-5">
                 
                 
-                <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mt-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mt-2" data-aos="fade-up" data-aos-delay="100">
 
                      
 

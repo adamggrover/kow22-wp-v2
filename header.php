@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php the_title(); ?></title>
+    <title>The Kings of Wessex Academy, Cheddar</title>
     <link rel="icon" type="image/x-icon" href="Assets/logos/kings-icon.svg">
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58589832-1"></script>
-    <script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58589832-1" defer></script>
+    <script defer>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -42,12 +42,12 @@
     <div id="sidebar-nav" class="sidenav">
       <div class="sidebar-container"  >
         <div class="closebtn-box">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i> </a>
+          <a href="javascript:void(0)" id = "closebtn" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i> </a>
         </div>
 
 
 
-          <div class="primary-menu-container">
+          <div class="primary-menu-container animate__animated">
           <?php bellows( 'main' , array( 'menu' => 6 ) ); ?>
           </div>
 

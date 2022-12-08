@@ -156,6 +156,7 @@ header = document.getElementById("header").classList.contains("header1");
 function openSearch() {
     document.getElementById("header-search-container").style.height = "3rem";
     document.getElementById("header-container").style.marginTop = "3rem";
+
   }
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
@@ -172,8 +173,12 @@ function openNav() {
     document.getElementById("sidebar-nav").style.width = "26rem";
 
     document.getElementById("main").style.marginLeft = "26rem";
+   // document.getElementById("menu-primary").classList.add('animate__animated', 'animate__fadeInLeft').classList.remove('animate__fadeOutLeft');
 
-    
+    var menu = document.getElementById("menu-primary");
+    menu.classList.add("fadeInUp");
+    menu.classList.add("animate__delay-1s");
+    menu.classList.remove("fadeOutDown");
 
 }
  
@@ -182,6 +187,12 @@ function openNav() {
   function closeNav() {
     document.getElementById("sidebar-nav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+    //document.getElementById("menu-primary").classList.add('animate__fadeOutLeft').classList.remove('animate__fadeInLeft');
+    
+    var menu = document.getElementId("menu-primary");
+    menu.classList.add("fadeOutDown");
+    menu.classList.add("animate__delay-1s");
+    menu.classList.remove("fadeInUp");
     
     
     

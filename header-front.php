@@ -134,7 +134,7 @@
                                 
                                 <h6><?php the_title(); ?></h6>
 
-                                <p><?php the_date(); ?></p>
+                                
                                 
                                 <a class="announcement-link" href="<?php the_permalink();?>">Read More</a>  
                                 </div>   
