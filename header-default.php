@@ -28,7 +28,7 @@
 
                     <div class="header-spacer p-1 d-none d-md-block"></div>
 
-                    <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
+                    <button id="navbtn" onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
 
                     <div class="header-spacer p-1 d-none d-md-block"></div>
 

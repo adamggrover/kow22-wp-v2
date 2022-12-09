@@ -201,7 +201,7 @@ function custom_post_type() {
             'add_new'             => __( 'Add New' ),
             'edit_item'           => __( 'Edit Announcement' ),
             'update_item'         => __( 'Update Announcement' ),
-            'search_items'        => __( 'Announcements' ),
+            'search_items'        => __( 'Search Announcements' ),
             'not_found'           => __( 'Not Found' ),
             'not_found_in_trash'  => __( 'Not found in Trash' ),
         );
@@ -217,7 +217,7 @@ function custom_post_type() {
             'add_new'             => __( 'Add New' ),
             'edit_item'           => __( 'Edit Vacancy' ),
             'update_item'         => __( 'Update Vacancy' ),
-            'search_items'        => __( 'Vacancy' ),
+            'search_items'        => __( 'Search Vacancies' ),
             'not_found'           => __( 'Not Found' ),
             'not_found_in_trash'  => __( 'Not found in Trash' ),
         );
