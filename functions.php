@@ -57,9 +57,11 @@ function kow22_theme_support(){
 
 }
 
-set_post_thumbnail_size( 250, 250);
+set_post_thumbnail_size( 350, 350);
 
 add_action('after_setup_theme', 'kow22_theme_support');
+	
+add_filter('jpeg_quality', function($arg){return 95;});
 
 //featured image header
 
