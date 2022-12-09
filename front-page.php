@@ -103,7 +103,7 @@
                   -webkit-transform: translate(-50%, -50%);
                   -ms-transform: translate(-50%, -50%);
                   transform: translate(-50%, -50%);
-                  text-align: center;">Safegaurding</div>
+                  text-align: center;">Safeguarding</div>
       
                   <div class="overlay" 
                   onMouseOver="this.style.opacity='1'"
