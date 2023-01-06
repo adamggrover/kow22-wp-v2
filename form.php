@@ -77,7 +77,7 @@ $mail = new PHPMailer();                              // Passing `true` enables 
 	    
 	    //Recipients
 	    $mail->setFrom('no-reply@kowessex.co.uk', 'New Sixth Form Application');
-	    $mail->addAddress('office@kowessex.co.uk', 'Application');     // Add a recipient
+	    $mail->addAddress('6formapplications@kowessex.co.uk', 'Application');     // Add a recipient
 #	    $mail->addAddress('ellen@kowessex.co.uk');               // Name is optional
 #	    $mail->addReplyTo('info@kowessex.co.uk', 'Information');
 #	    $mail->addCC('cc@kowessex.co.uk');

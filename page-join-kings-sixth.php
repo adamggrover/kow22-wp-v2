@@ -43,9 +43,9 @@
 <h2 class="mt-5 mb-4"><strong>Application Form</strong></h2>
                         <div class="form-container">
 
-                            <form method="post" autocomplete="on" action="../wp-content/themes/kow22/form.php">
+                            <form method="post" autocomplete="on" action="/kings/wp-content/themes/kow22/form.php">
 
-                            <div class="form-contents" >
+                            <div class="form-contents">
 
 
                                 
